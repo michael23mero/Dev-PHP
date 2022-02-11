@@ -1,0 +1,30 @@
+header{
+    background: #ccc;
+}
+
+.cabecera3{
+    width: 75%;
+    margin: auto;
+    height: 100px;
+}
+
+.menu3 ul{
+    margin: 0;
+    list-style: none;
+    padding: 10px;
+    display:inline-flex;
+}
+
+.menu3 li a{
+    text-decoration:none;
+    color: #fff;
+    padding: 15px;
+    display: block;
+}
+
+/*.menu3 li a:hover{
+    background-color: #4567CD;
+    padding: 10px;
+    border-radius: 20px;
+    transition: .5s;
+}*/

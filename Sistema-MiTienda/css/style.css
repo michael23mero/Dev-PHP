@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.col-3{
+    width: 50%;
+    margin: auto;
+    display: inline;
+}
+
+.slide{
+    margin-top: 10px;
+}
+
+.slide img{
+    height: 65vh;    
+}
+
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+}

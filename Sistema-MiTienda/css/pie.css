@@ -1,0 +1,37 @@
+.pieContenedor{
+    background: #1070AA;
+    padding: 20px;
+    font-family: 'Arial Narrow';
+    font-size: 18px;
+}
+
+.pie{
+    width: 75%;
+    margin: auto;
+    color: #fff;
+}
+
+.redes{
+    float: right;
+}
+
+/*.redSocial{
+    margin: 50px;
+}
+.redSocial p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link a{
+    margin: 0 40px;
+}
+.link a i{
+    font-size: 2rem;
+}*/

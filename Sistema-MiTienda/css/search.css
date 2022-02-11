@@ -1,0 +1,14 @@
+.derecha, .seleccionar{
+    float: right;
+    display: inline-flex;
+    margin: 10px 0px;
+}
+
+.derecha input{
+    width: 250px;
+    margin: 0px 5px;
+}
+
+select{
+    width: 250px;
+}

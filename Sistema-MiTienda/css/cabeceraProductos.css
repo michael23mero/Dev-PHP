@@ -1,0 +1,24 @@
+.cabecera2{
+    background: #1b9bff;
+}
+
+.menu2 ul{
+    margin: 0;
+    list-style: none;
+    padding: 10px;
+    display:inline-flex;
+}
+
+.menu2 li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    display: block;
+}
+
+.menu2 li a:hover{
+    background-color: #4567CD;
+    padding: 10px;
+    border-radius: 20px;
+    transition: .5s;
+}

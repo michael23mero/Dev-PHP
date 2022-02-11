@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background: #ccc;
+}
+
+.cabeceraAdmin{
+    width: 75%;
+    margin: auto;
+    height: 100px;
+}
+
+#btnMenu{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 60px;
+    padding: 10px;
+    color: #fff;
+    font-size: 30px;
+    transition: all 500ms ease;
+}
+
+header label:hover{
+    background-color: rgba(0, 0, 0, 3);
+    cursor: pointer;
+}
+
+.menuAdmin ul{
+    margin: 0;
+    list-style: none;
+    padding: 15px;
+    display:flex;
+}
+
+.menuAdmin li a{
+    text-decoration:none;
+    color: #fff;
+    padding: 20px;
+    display: block;
+}
+
+.menuAdmin li a:hover{
+    background-color: #4567CD;
+    padding: 15px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+@media(max-width: 768px){
+    header{
+        padding-top: 20px;
+        height: 100px;
+    }
+    header label{
+        display: block;
+    }
+    .checkbtn{
+        display: block;
+        margin-top: 400px;
+    }
+    .menuAdmin{
+        position: absolute;
+        background: #234354;
+        width: 75%;
+        margin-left: -110%;
+        transition: all 500ms ease;
+    }
+    .menuAdmin ul{
+        flex-direction: column;
+    }
+    #btnMenu:checked~ .menuAdmin{
+        margin: 0;
+    }
+}
